@@ -15,7 +15,7 @@ public class Application {
 		String[][] data = GenericMethods.getData("C:\\Users\\Foram\\Desktop\\QA Testing Classes\\Selenium\\JAVA Projects\\TestData2.xlsx", "Sheet1");
 		for (int i=1; i<data.length;i++) {
 			switch (data [i][3]) {
-		
+		//Making changes to the code after R1.1
 			case "openBrowser":
 				Methods.openBrowser();
 				break;
